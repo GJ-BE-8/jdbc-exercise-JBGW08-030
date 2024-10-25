@@ -62,7 +62,7 @@ public class BasicConnectionPool  {
         notify();
     }
 
-    public synchronized int getUsedConnectionSize(){
+    public int getUsedConnectionSize(){
         //todo#5 현재 사용중인 Connection 객체 수를 반환합니다.
         return maximumPoolSize - connections.size();
     }
