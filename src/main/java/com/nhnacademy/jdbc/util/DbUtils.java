@@ -13,9 +13,9 @@ public class DbUtils {
 
     static {
         BasicDataSource basicDataSource = new BasicDataSource();
-        basicDataSource.setUrl("jdbc:mysql://133.186.241.167:3306/nhn_academy_0");
-        basicDataSource.setUsername("nhn_academy_0");
-        basicDataSource.setPassword("1j0OTaJgkS1@$dWl");
+        basicDataSource.setUrl("jdbc:mysql://133.186.241.167:3306/nhn_academy_30");
+        basicDataSource.setUsername("nhn_academy_30");
+        basicDataSource.setPassword("dY)ydS7rUqApRwzo");
         basicDataSource.setInitialSize(5);
         basicDataSource.setMaxTotal(5);
         basicDataSource.setMaxIdle(5);
